@@ -1,5 +1,5 @@
 
 public interface People {
-	boolean isActive();
-	void setActive(boolean active);
+	void receiveInfo(String info);
+	void receiveOrder(String order);
 }
