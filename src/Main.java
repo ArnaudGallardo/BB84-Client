@@ -1,8 +1,5 @@
-import java.io.Console;
 import java.io.IOException;
-
 import jexxus.client.ClientConnection;
-import jexxus.common.Delivery;
 
 
 public class Main {
@@ -16,10 +13,6 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//send with the TCP Protocol
-		Console console = System.console();
-		String input = console.readLine("Enter input:");
-		conn.send(input.getBytes(), Delivery.RELIABLE);
 	}
 
 }
