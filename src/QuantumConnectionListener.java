@@ -19,6 +19,9 @@ public class QuantumConnectionListener implements ConnectionListener{
 	    else if(msg.equals("EVE")) {
 	    	p = new Eve(from);
 	    }
+	    else if(msg.equals("BOB")) {
+	    	p = new Bob(from);
+	    }
 	    else {
 	    	String type = msg.substring(0,1);
 	    	if(type.equals("i"))

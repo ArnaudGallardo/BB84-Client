@@ -4,11 +4,11 @@ import jexxus.common.Connection;
 import jexxus.common.Delivery;
 
 
-public class Alice extends AbstractPeople {
+public class Bob extends AbstractPeople {
 	private Connection conn;
 	private Console console;
 	
-	public Alice(Connection conn) {
+	public Bob(Connection conn) {
 		this.conn = conn;
 		this.console = System.console();
 	}
